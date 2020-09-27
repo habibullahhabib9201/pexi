@@ -1,0 +1,409 @@
+/* googlee fonts link up*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* googlee fonts link up*/
+/*gloobal css */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+input,
+button.p,
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: black;
+}
+
+.mav-item {
+    margin: 0 30px;
+}
+
+.input-group-text {
+    background: #00bec9 !important;
+    border: #00bec9 !important;
+    color: #fff !important;
+    border-radius: 0;
+}
+
+header .form-control {
+    background: transparent;
+    background: #fcc302 !important;
+    border: #fcc302 !important;
+    border-radius: 0 !important;
+}
+
+header .input-group {
+    margin-top: 13px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4) !important;
+}
+
+header .input-group input::placeholder {
+    color: white;
+    font-weight: 500;
+}
+
+/*banner section css */
+.banner {
+    width: 100%;
+    background: #fcc302;
+    height: 75vh;
+}
+
+.banner-image,
+.banner .banner-text {
+    height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 51px;
+}
+
+.banner .banner-text h2 {
+    color: white;
+    font-weight: 700;
+}
+
+.banner .banner-text p {
+    color: white;
+}
+
+.banner .button-1 {
+    color: white;
+    background: #00bec9;
+    padding: 5px 22px;
+    font-weight: 600;
+    border: 1px solid #00bec9;
+}
+
+.banner .button-2 {
+    margin: 0 10px;
+    color: white;
+    background: #fcc302;
+    background: transfarent;
+    padding: 5px 22px;
+    border: 1px solid white;
+}
+
+/*banner section css */
+.video-section {
+    width: 100%;
+    margin: 60px 0;
+}
+
+.video-section .left-1 {
+    padding: 30px 31px;
+}
+
+.video-section .left-1 h2 {
+    font-weight: 600;
+}
+
+.video-section .left-1 button {
+    padding: 5px 20px;
+    border: none;
+    border: 1px silid #fcc302;
+    background: #fcc302;
+    color: white;
+    font-weight: 600;
+}
+
+/*video section css*/
+.video-section {
+    width: 100%;
+    padding: 120px 0;
+}
+
+.video-section .video-part {
+    margin-left: 100px;
+}
+
+
+.video-section a {
+    position: relative
+}
+
+
+.video-section i {
+    font-size: 30px;
+    border-radius: 100%;
+    color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 141px;
+    text-align: center;
+
+}
+
+.video-part {
+    position: relative;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background: #fcc302;
+    position: absolute;
+    left: -25px;
+    bottom: -20px;
+    z-index: -9;
+}
+
+/*video section css*/
+/*gallery-section css*/
+.gallery {
+    width: 100%;
+    background: #fcc302;
+    padding: 120px 0;
+}
+
+.title-gallery h2 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.title-gallery p {
+    text-align: center;
+    color: white;
+    padding: 0 223px;
+
+    margin-bottom: 50px;
+}
+
+/*gallery-section css*/
+/*image gallery*/
+.image-gallery {
+    text-align: center;
+}
+
+.image-gallery h2 {
+    margin-top: 20px;
+    color: white;
+}
+
+.image-gallery p {
+    color: white;
+}
+
+/*image gallery end*/
+/*gallery section 2 stsrt*/
+
+.image-gallery button {
+    padding: 10px 30px;
+    border-radius: 35px;
+    background: #00bec9;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border: 1px solid #00bec9;
+}
+
+/*gallery section 2 end*/
+/*gallery-section 3 stsrt */
+.gallery-3 {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.gallery-3 .icon h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.gallery-3 .icon h5 {
+    color: #B7ADAD;
+}
+
+.gallery-3 .icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.gallery-3 .icon ul li i {
+    margin-left: 15px;
+    height: 28px;
+    width: 28px;
+    background: #fcc302;
+    border-radius: 50%;
+    color: white;
+    line-height: 28px;
+}
+
+/*gallery-section 3 end */
+/*plagin section css stsrt*/
+.plagin-section {
+    width: 100%;
+    background: #fcc302;
+    padding: 70px 0;
+}
+
+.plagin-section ul li {
+    list-style: none;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.plagin-section h4 {
+    text-align: center;
+    color: white;
+}
+
+.plagin-section {
+    text-align: center;
+    color: white;
+}
+
+/*plagin section css end*/
+/*card sectionm css stsrt*/
+.lover-section {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.font-title h1 {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.font-title p {
+    margin: 30px 0;
+    padding: 0 250px;
+}
+
+.card-section {
+    text-align: center;
+}
+
+.card-section .card-header {
+    padding: 0;
+}
+
+.card-section h3 {
+    text-align: left;
+    font-weight: 600;
+}
+
+.card-section h5 {
+    text-align: left;
+    color: #05F8E2;
+}
+
+.card-section p {
+    text-align: left;
+}
+
+.card-section h4 {
+    text-align: left;
+    color: #05F8E2;
+}
+
+/*card sectionm css end*/
+/*footer section css start*/
+.footer {
+    width: 100%;
+    padding: 100px 0;
+    background: #343434;
+    text-align: center;
+}
+
+.footer h2 {
+    color: white;
+    text-align: left;
+}
+
+.footer ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.footer .col-md-6h4 {
+    color: white;
+}
+
+.footer .col-md-6 {
+    color: white;
+}
+
+.footer ul li a {
+    color: white;
+}
+
+.footer .col-md-6 {
+    text-align: right;
+}
+
+.input-box input {
+    padding: 8px 10px;
+    width: 300px;
+    background: #daac00;
+    border: none;
+    border: 1px solid #daac00;
+}
+
+.input-box input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input-box {
+    position: relative;
+}
+
+.submit a {
+    padding: 9px 32px;
+    background: #00bec9;
+    color: white;
+}
+
+.submit {
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.font-icon ul li a i{
+    text-align: center;
+}
+.font-icon ul li {
+   text-align: right;
+    display: inline-block;
+    margin: 10px 15px;
+    height: 50px;
+    width: 30px;
+    border-radius: 50px;
+    background: red;
+   text-align: center;
+    line-height: 51px;
+    background: black;
+    color: white;
+}
+
+
+/*footer section css end*/
